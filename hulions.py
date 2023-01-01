@@ -1,7 +1,7 @@
 import csv
 from math import *
 
-file_path = "E:\HABIB UNI WORK\First Semester\Programming Fundamentals\Final Project\HU Lions Database CLI\databases\hu_lions.csv"
+file_path = "databases/hu_lions.csv"
 
 # Function to print banner 
 
@@ -14,7 +14,7 @@ def print_banner():
 * /_//_/\____/____/___/\____/_/|_/___/  /____/_/ |_/_/ /_/ |_/____/_/ |_/___/___/   *
 *                                                                                   *
 * HULIONS DATABASE v1.0                                                             *
-* Coded By: AHSAN X EMAAN X BURHAN                                                  *
+* Coded By: AHSAN AZEEMI                                                            *
 *                                                                                   *
 *************************************************************************************
 '''
@@ -49,10 +49,6 @@ def check_user_choice():
                 else:
                     return False
 
-            # while user_choice.isdigit()==False:
-            #     print(f"'{user_choice}' was an invalid choice !")
-            #     user_choice = (input("Please enter your choice to continue:\n>>> ")).strip()
-            # return user_choice
         
         is_choose_valid = check_for_valid_input(user_choice)
         
@@ -504,8 +500,8 @@ def main(logged_in):
     if logged_in == False:
         print_banner()
 
-        correct_username = "no-admin"
-        correct_password = "sirnadeemisbest"
+        correct_username = "admin"
+        correct_password = "pfun"
 
         while logged_in == False:
             username = input("Enter username to continue: \n >>> ").strip()
