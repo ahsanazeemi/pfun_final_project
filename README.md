@@ -1,4 +1,4 @@
-# Programming Fundamentals CSV Database Project
+# Programming Fundamentals CSV Python Project
 
 This is final project for the Programming Fundamentals Course (CS101).
 <br> In this project, I used CSV module to implement CRUD operations on CSV file using Python Programming Language.
@@ -10,7 +10,7 @@ This is final project for the Programming Fundamentals Course (CS101).
 Install hulions.py with Python 3.x or greater
 
 ```bash
-  cd 'PFUN-CSV-Database-Project'
+  cd 'PFUN-CSV-Python-Project'
   python3 hulions.py
 ```
 
