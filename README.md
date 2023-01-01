@@ -19,7 +19,7 @@ Install hulions.py with Python 3.x or greater
 
 #### When it asks for username and password:
 
-```http
+```
   username >> _
   password >> _
 ```
